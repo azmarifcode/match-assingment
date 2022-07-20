@@ -95,14 +95,19 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.212);
     box-sizing: border-box;
     border-radius: 15px;
+    height: 240px;
+    padding: 15px;
 }
 .card img {
     width: 100%;
 }
 .card-pad {
     padding: 15px;
+    text-align: center;
 }
-
+.card-pad p {
+    color: #4D4D4D;
+}
 .transfer-btn button {
     width: 100px;
     height: 32px;
@@ -120,6 +125,15 @@ header {
     gap: 40px;
 }
 
+/* 2nd page  */
+
+.flag {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+    align-items: center;
+}
 
 /* footer */
 footer {
