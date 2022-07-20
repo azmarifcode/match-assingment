@@ -53,6 +53,7 @@ button {
 .main-flex {
     display: flex;
     margin-top: 100px;
+    gap: 15px;
 }
 
 .buttons {
@@ -74,10 +75,14 @@ button {
     font-size: 20px;
     font-weight: 500;
 }
-
+.blog button {
+    background-color: #DD0000;
+    color: white;
+}
 .match-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
     justify-items: center;
 }
 .card {
@@ -86,7 +91,10 @@ button {
     border-radius: 15px;
 }
 .card img {
-
+    width: 100%;
+}
+.card-pad {
+    padding: 15px;
 }
 
 .transfer-btn button {
@@ -96,8 +104,15 @@ button {
     border: 1px solid black;
 }
 
+.match-duration, .match-comment {
+    display: flex;
+    gap: 8px;
+}
 
-
+.match-info {
+    display: flex;
+    gap: 40px;
+}
 
 
 
