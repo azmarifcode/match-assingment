@@ -43,10 +43,13 @@ header {
     margin: 0;
 }
 button {
-    width: 100px;
+    width: 120px;
     padding: 10px;
     text-transform: capitalize;
     cursor: pointer;
+    color: white;
+    background-color: #DD0000;
+    border-radius: 5px;
 }
 
 
