@@ -95,6 +95,8 @@ header {
     border: 1px solid rgba(0, 0, 0, 0.212);
     box-sizing: border-box;
     border-radius: 15px;
+}
+.m-card {
     height: 240px;
     padding: 15px;
 }
@@ -103,6 +105,8 @@ header {
 }
 .card-pad {
     padding: 15px;
+}
+.pad2 {
     text-align: center;
 }
 .card-pad p {
